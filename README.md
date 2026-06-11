@@ -1,3 +1,5 @@
+<img width="810" height="613" alt="Volume Pedal GUI" src="https://github.com/user-attachments/assets/4148936b-82db-49db-a067-9089c905bdf8" />
+
 # Volume Pedal
 
 **Volume Pedal** is a simple, musical volume pedal plug-in for macOS, designed for guitarists, keyboard players, and anyone who wants smooth expression-style volume control inside a DAW.
