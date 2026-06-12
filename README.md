@@ -1,29 +1,94 @@
 <img width="810" height="613" alt="Volume Pedal GUI" src="https://github.com/user-attachments/assets/4148936b-82db-49db-a067-9089c905bdf8" />
-
 # Volume Pedal
 
-**Volume Pedal** is a simple, musical volume pedal plug-in for macOS, designed for guitarists, keyboard players, and anyone who wants smooth expression-style volume control inside a DAW.
+**Volume Pedal** is a focused volume-control plug-in for macOS.
 
-It provides a clean virtual pedal control with adjustable heel/toe levels, response curves, MIDI assignment, DAW automation, presets, and license activation.
+Built for guitarists, keyboard players and live performers, it turns MIDI, automation or mouse movement into smooth, musical volume control—with adjustable range, response curves and pedal behaviour.
 
 ## Features
 
-- AUv2 and VST3 plug-in formats for macOS
-- Simple volume pedal style control
-- Adjustable **Heel Level** and **Toe Level**
-- Multiple response curves
-- Curve shape control
-- Invert mode for reverse pedal behaviour
-- MIDI Assign for expression pedal control
-- DAW parameter automation support
-- Factory presets
-- User preset save/load
-- 14-day trial
-- Lemon Squeezy license activation
+- AUv2 and VST3 for macOS
+- Smooth expression-style volume control
+- Adjustable **Min** and **Max** levels
+- Five response curves
+- Adjustable curve **Shape**
+- **Reverse** operation
+- Direct MIDI Learn
+- Full DAW automation
+- Factory and user presets
+- 14-day fully functional trial
+- Lemon Squeezy licence activation
 
-## Supported Formats
+## Response Curves
 
-Initial release:
+Choose from:
+
+- Linear
+- Natural
+- Fast Rise
+- Slow Rise
+- S-Curve
+
+Use **Shape** to fine-tune the selected curve.
+
+The graph shows how pedal position is translated into output level, while **Min** and **Max** define the available gain range.
+
+## Direct MIDI
+
+Direct MIDI maps a learned MIDI CC directly to the **Position** parameter.
+
+To assign a controller:
+
+1. Enable **Direct MIDI**.
+2. Click **Learn**.
+3. Move your expression pedal or MIDI controller.
+4. The detected CC and MIDI channel will be displayed.
+
+Click **Clear** to remove the assignment.
+
+> ⚠ Mapping the same CC to Position in both Direct MIDI and your host creates a second control path and may cause conflicting movement.
+
+Direct MIDI requires the host to send MIDI to the plug-in.
+
+### Ableton Live
+
+Place Volume Pedal on an audio track, then route MIDI from a MIDI track to the track hosting the plug-in.
+
+### Logic Pro
+
+Logic does not normally route MIDI directly to standard AU audio effects. In Logic, automate or MIDI-map the **Position** parameter through the host instead.
+
+## DAW Automation
+
+The following parameters are available to the host:
+
+1. Position
+2. Response Curve
+3. Min
+4. Max
+5. Shape
+6. Reverse
+7. Direct MIDI
+
+The learned MIDI CC and channel remain private plug-in settings and are not exposed as automation parameters.
+
+## Presets
+
+Factory presets include:
+
+- Clean Sweep
+- Guitar Pot
+- Keyboard Swell
+- Rhythm Trim
+- Reverse Swell
+
+User presets can also be saved and loaded from within the plug-in.
+
+Presets store pedal behaviour and response settings. Direct MIDI controller assignments remain separate.
+
+## Formats
+
+Included:
 
 - macOS AUv2
 - macOS VST3
@@ -39,74 +104,35 @@ Additional formats may be considered later.
 
 ## Installation
 
-Install the plug-in files to the standard macOS audio plug-in folders:
+Run the supplied macOS installer.
+
+The plug-ins are installed in the standard macOS audio plug-in locations:
 
 ```text
 /Library/Audio/Plug-Ins/Components/Volume Pedal.component
 /Library/Audio/Plug-Ins/VST3/Volume Pedal.vst3
 ```
 
-After installation, rescan plug-ins in your DAW if required.
+Rescan plug-ins in your DAW if Volume Pedal does not appear immediately.
 
-## Activation and Trial
+## Trial and Activation
 
-Volume Pedal includes a 14-day trial.
+Volume Pedal includes a fully functional 14-day trial.
 
-During the trial, the plug-in is fully usable. To activate:
+To activate:
 
 1. Open Volume Pedal in your DAW.
 2. Click **Activate**.
-3. Enter your license key.
+3. Enter your licence key.
 4. Click **Activate** again.
 
-Once activated, Volume Pedal will show the registered license status.
+A single activation covers both AUv2 and VST3 on the same Mac.
 
-The same activation is shared between AUv2 and VST3 on the same Mac.
-
-## MIDI Assign
-
-Volume Pedal includes a MIDI Assign function for controlling the Position parameter with an expression pedal or MIDI CC.
-
-Important: MIDI Assign requires the plug-in to receive MIDI directly from the host.
-
-DAW behaviour varies:
-
-- In Logic Pro, MIDI input to audio effects is limited. Use the appropriate MIDI-controlled plug-in configuration if available.
-- In Ableton Live, MIDI may need to be routed from a MIDI track to the audio track hosting Volume Pedal.
-- If direct MIDI routing is inconvenient, use normal DAW parameter automation for the **Position** parameter instead.
-
-## Parameter Automation
-
-The following parameters can be automated in your DAW:
-
-- Position
-- Heel Level
-- Toe Level
-- Response Curve
-- Curve Shape
-- MIDI CC
-- MIDI Channel
-- Invert
-
-The **Invert** parameter affects manual control, MIDI-assigned control, and DAW automation consistently.
-
-## Presets
-
-Volume Pedal includes a small set of factory presets intended as pedal setup starting points:
-
-- Clean Sweep
-- Guitar Pot
-- Keyboard Swell
-- Rhythm Trim
-- Reverse Swell
-
-User presets can also be saved and loaded from within the plug-in.
-
-Presets should be thought of as pedal behaviour/setup presets rather than sound presets.
+After activation, the footer displays **Licensed**. Click **Account** to view the registered email address or deactivate the licence.
 
 ## Support
 
-For support, contact:
+Email:
 
 ```text
 vaultnaemsae@icloud.com
@@ -114,21 +140,21 @@ vaultnaemsae@icloud.com
 
 Please include:
 
-- Your DAW and version
+- DAW and version
 - macOS version
-- Plug-in format used, AUv2 or VST3
-- A short description of the issue
-- Any relevant MIDI routing details, if the issue involves MIDI Assign
+- AUv2 or VST3
+- A brief description of the issue
+- Relevant MIDI-routing details
 
-## Known Notes
+## Notes
 
-- MIDI routing into audio effects differs between DAWs.
-- MIDI Assign only works when the host successfully sends MIDI to the plug-in.
-- DAW parameter automation is often the simplest and most reliable way to control Position.
-- AUv3 is not included in the initial release.
+- MIDI routing to audio effects varies between DAWs.
+- Direct MIDI works only when the host sends MIDI to the plug-in.
+- Host automation is often the simplest option for controlling Position.
+- AUv3 is not included in the current release.
 
-## License
+## Licence
 
 Volume Pedal is commercial software.
 
-A valid license is required after the trial period.
+A valid licence is required after the 14-day trial.
