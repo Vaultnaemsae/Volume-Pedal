@@ -1,4 +1,5 @@
-<img width="810" height="613" alt="Volume Pedal GUI" src="https://github.com/user-attachments/assets/4148936b-82db-49db-a067-9089c905bdf8" />
+<img width="1616" height="1108" alt="image" src="https://github.com/user-attachments/assets/5059e0c7-1b34-4d25-91b5-f868a3e47860" />
+
 # Volume Pedal
 
 **Volume Pedal** is a focused volume-control plug-in for macOS.
