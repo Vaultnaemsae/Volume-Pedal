@@ -1,14 +1,15 @@
-<img width="1616" height="1108" alt="image" src="https://github.com/user-attachments/assets/5059e0c7-1b34-4d25-91b5-f868a3e47860" />
+
 
 # Volume Pedal
 
-**Volume Pedal** is a focused volume-control plug-in for macOS.
+**Volume Pedal** is a focused volume-control plug-in for macOS and Windows. iOS/iPadOS and macOS AUv3 versions are forthcoming.
 
 Built for guitarists, keyboard players and live performers, it turns MIDI, automation or mouse movement into smooth, musical volume control—with adjustable range, response curves and pedal behaviour.
 
 ## Features
 
-- AUv2 and VST3 for macOS
+- macOS: AUv2/VST3
+- Windows: x64 / x64ARM / x64ARMEC
 - Smooth expression-style volume control
 - Adjustable **Min** and **Max** levels
 - Five response curves
@@ -93,15 +94,11 @@ Included:
 
 - macOS AUv2
 - macOS VST3
-
+- Windows VST3
+- 
 Not currently included:
-
-- AUv3
 - VST2
 - CLAP
-- Windows VST3
-
-Additional formats may be considered later.
 
 ## Installation
 
@@ -142,8 +139,8 @@ vaultnaemsae@icloud.com
 Please include:
 
 - DAW and version
-- macOS version
-- AUv2 or VST3
+- Operating system
+- Plugin type
 - A brief description of the issue
 - Relevant MIDI-routing details
 
