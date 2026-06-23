@@ -149,7 +149,7 @@ Please include:
 - MIDI routing to audio effects varies between DAWs.
 - Direct MIDI works only when the host sends MIDI to the plug-in.
 - Host automation is often the simplest option for controlling Position.
-- AUv3 is not included in the current release.
+- [Volume Pedal universal AUv3 (iOS/iPadOS/macOS) is available on the App Store](https://apps.apple.com/us/app/volume-pedal/id6780228417)
 
 ## Licence
 
