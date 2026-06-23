@@ -95,7 +95,8 @@ Included:
 - macOS AUv2
 - macOS VST3
 - Windows VST3
-- 
+- [Universal AUv3 (iOS/iPadOS/macOS) is available on the App Store](https://apps.apple.com/us/app/volume-pedal/id6780228417)
+
 Not currently included:
 - VST2
 - CLAP
@@ -149,7 +150,6 @@ Please include:
 - MIDI routing to audio effects varies between DAWs.
 - Direct MIDI works only when the host sends MIDI to the plug-in.
 - Host automation is often the simplest option for controlling Position.
-- [Volume Pedal universal AUv3 (iOS/iPadOS/macOS) is available on the App Store](https://apps.apple.com/us/app/volume-pedal/id6780228417)
 
 ## Licence
 
