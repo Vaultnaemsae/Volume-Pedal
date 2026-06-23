@@ -1,4 +1,4 @@
-<img width="808" height="554" alt="Screenshot 2026-06-16 at 1 17 47 PM" src="https://github.com/user-attachments/assets/f93f2519-d215-4f87-82b4-bfbed288eb25" />
+<img width="810" height="653" alt="Screenshot 2026-06-23 at 12 43 39 PM" src="https://github.com/user-attachments/assets/33da183c-2b71-4f2c-8c7d-36a969c86ece" />
 
 # Volume Pedal
 
