@@ -17,14 +17,14 @@ Built for guitarists, keyboard players and live performers, Volume Pedal offers 
 - Direct MIDI Learn
 - Full DAW automation
 - Factory and user presets
-- 14-day fully functional trial
+- 14-day fully functional trial (desktop only)
 - Lemon Squeezy licence activation
 
 ## Response Curves and Gain Range
 
 Drag curve handles (taper/focus parameters) for different responses, such as:
 - Linear
-- Natural
+- Natural audio taper
 - Fast Rise
 - Slow Rise
 - S-Curve
