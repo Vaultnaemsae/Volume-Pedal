@@ -1,10 +1,10 @@
-<img width="810" height="653" alt="Screenshot 2026-06-23 at 12 43 39 PM" src="https://github.com/user-attachments/assets/33da183c-2b71-4f2c-8c7d-36a969c86ece" />
+<img width="810" height="653" alt="Screenshot 2026-06-24 at 12 26 50 PM" src="https://github.com/user-attachments/assets/cb6ceedc-c069-4e85-8eda-81bf80a72252" />
 
 # Volume Pedal
 
-**Volume Pedal** is a focused volume-control plug-in for macOS and Windows. iOS/iPadOS and macOS AUv3 versions are forthcoming.
+**Volume Pedal** is a focused volume-control plug-in for macOS, Windows and iOS/iPadOS/macOS (Universal AUv3).
 
-Built for guitarists, keyboard players and live performers, it turns MIDI, automation or mouse movement into smooth, musical volume control—with adjustable range, response curves and pedal behaviour.
+Built for guitarists, keyboard players and live performers, Volume Pedal offers smooth, musical volume control—with adjustable range, response curves and pedal behaviour, via direct MIDI or DAW/host automation.
 
 ## Features
 
@@ -12,7 +12,6 @@ Built for guitarists, keyboard players and live performers, it turns MIDI, autom
 - Windows: x64 / x64ARM / x64ARMEC
 - Smooth expression-style volume control
 - Adjustable **Min** and **Max** levels
-- Five response curves
 - Adjustable curve **Shape**
 - **Reverse** operation
 - Direct MIDI Learn
@@ -21,19 +20,16 @@ Built for guitarists, keyboard players and live performers, it turns MIDI, autom
 - 14-day fully functional trial
 - Lemon Squeezy licence activation
 
-## Response Curves
+## Response Curves and Gain Range
 
-Choose from:
-
+Drag curve handles (taper/focus parameters) for different responses, such as:
 - Linear
 - Natural
 - Fast Rise
 - Slow Rise
 - S-Curve
 
-Use **Shape** to fine-tune the selected curve.
-
-The graph shows how pedal position maps to output level, while **Min** and **Max** define the available gain range.
+The graph shows how pedal position maps to output level, while the **Min** and **Max** define the available gain range.
 
 ## Direct MIDI
 
@@ -58,7 +54,7 @@ Place Volume Pedal on an audio track, then route MIDI from a MIDI track to the t
 
 ### Logic Pro
 
-Logic does not normally route MIDI directly to standard AU audio effects. In Logic, automate or MIDI-map the **Position** parameter through the host instead.
+Logic does not normally route MIDI directly to standard AU audio effects. In Logic, automate or MIDI-map the **Position** parameter through the host instead. For Direct MIDI control, use a software instrument track and instantiate Volume Pedal as an AU MIDI-controlled effect. When using the plug-in in this manner, be sure to give it an audio input via the side chain selector in the Logic-generated plug-in header above the GUI.
 
 ## DAW Automation
 
@@ -78,15 +74,20 @@ The learned MIDI CC and channel remain private plug-in settings and are not expo
 
 Factory presets include:
 
-- Clean Sweep
-- Guitar Pot
-- Keyboard Swell
-- Rhythm Trim
+- Linear
+- Natural Pedal
+- Audio Taper
+- Fast Rise
+- Slow Swell
+- Holdsworth (New)
+- Holdsworth (Old)
+- Soft S-Curve
+- Rhythm to Lead
 - Reverse Swell
 
 User presets can also be saved and loaded from within the plug-in.
 
-Presets store pedal behaviour and response settings. Direct MIDI controller assignments remain separate.
+User presets store pedal behaviour, response settings and Direct MIDI controller assignments.
 
 ## Formats
 
@@ -103,15 +104,20 @@ Not currently included:
 
 ## Installation
 
-Run the supplied macOS installer.
+## Installation
 
-The plug-ins are installed in the standard macOS audio plug-in locations:
+Run the supplied macOS `.pkg` or Windows `.exe` installer.
+
+On macOS, the plug-ins are installed in the standard audio plug-in locations:
 
 ```text
 /Library/Audio/Plug-Ins/Components/Volume Pedal.component
 /Library/Audio/Plug-Ins/VST3/Volume Pedal.vst3
 ```
-
+On Windows, the VST3 plug-in is installed in the standard VST3 location:
+```text
+C:\Program Files\Common Files\VST3\Volume Pedal.vst3
+```
 Rescan plug-ins in your DAW if Volume Pedal does not appear immediately.
 
 ## Trial and Activation (Desktop)
