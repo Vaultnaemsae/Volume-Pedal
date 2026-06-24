@@ -33,7 +33,7 @@ Choose from:
 
 Use **Shape** to fine-tune the selected curve.
 
-The graph shows how pedal position is translated into output level, while **Min** and **Max** define the available gain range.
+The graph shows how pedal position maps to output level, while **Min** and **Max** define the available gain range.
 
 ## Direct MIDI
 
@@ -114,7 +114,7 @@ The plug-ins are installed in the standard macOS audio plug-in locations:
 
 Rescan plug-ins in your DAW if Volume Pedal does not appear immediately.
 
-## Trial and Activation
+## Trial and Activation (Desktop)
 
 Volume Pedal includes a fully functional 14-day trial.
 
@@ -125,7 +125,7 @@ To activate:
 3. Enter your licence key.
 4. Click **Activate** again.
 
-A single activation covers both AUv2 and VST3 on the same Mac.
+A single activation covers every supported format on the same Mac or Windows computer.
 
 After activation, the footer displays **Licensed**. Click **Account** to view the registered email address or deactivate the licence.
 
