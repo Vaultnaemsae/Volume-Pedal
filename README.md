@@ -64,9 +64,10 @@ The following parameters are available to the host:
 2. Response Curve
 3. Min
 4. Max
-5. Shape
-6. Reverse
-7. Direct MIDI
+5. Taper
+6. Focus
+7. Reverse
+8. Direct MIDI
 
 The learned MIDI CC and channel remain private plug-in settings and are not exposed as automation parameters.
 
