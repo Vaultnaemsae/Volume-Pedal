@@ -35,7 +35,7 @@ The graph shows how pedal position maps to output level, while the **Min** and *
 
 The position knob represents the sweep of the expression pedal. It can be controlled by two methods.
 
-1) Direct MIDI maps a learned MIDI CC directly to the **Position** parameter.
+**Direct MIDI** maps a learned MIDI CC directly to the **Position** parameter.
 
 To assign a controller:
 
@@ -46,13 +46,13 @@ To assign a controller:
 
 Click **Clear** to remove the assignment.
 
-> ⚠ Mapping the same CC to Position in both Direct MIDI and your host creates a second control path and may cause conflicting movement.
-
 Direct MIDI requires the host to send MIDI directly to the plug-in.
 
-2) Host automation can also control the Position knob. When this is active, a "Host Control" message appears above the dial.
+**Host automation** can also control the Position knob. When this is active, a "Host Control" message appears above the dial.
 
-### Ableton Live
+> ⚠ Mapping the same CC to Position in both Direct MIDI and your host creates a second control path and may cause conflicting movement.
+
+### Ableton Live / Bitwig Studio / Reaper / etc.
 
 Place Volume Pedal on an audio track, then route MIDI from a MIDI track to the track hosting the plug-in.
 
