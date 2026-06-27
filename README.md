@@ -16,7 +16,8 @@ Built for guitarists, keyboard players and live performers, Volume Pedal offers 
 - **Reverse** operation
 - Direct MIDI Learn
 - Full DAW automation
-- 10 Factory presets
+- Reliable parameter state recall
+- 10 factory presets
 - 14-day fully functional trial (desktop only)
 - Lemon Squeezy licence activation
 
