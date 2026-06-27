@@ -4,7 +4,7 @@
 
 **Volume Pedal** is a focused volume-control plug-in for macOS, Windows and iOS/iPadOS/macOS (Universal AUv3).
 
-Built for guitarists, keyboard players and live performers, Volume Pedal offers smooth, musical volume control—with adjustable range, response curves and pedal behaviour, via direct MIDI or DAW/host automation.
+Built for guitarists, keyboard players and live performers, Volume Pedal offers smooth, musical volume control with adjustable range, response curves and pedal behaviour, via direct MIDI or DAW/host automation.
 
 ## Features
 
@@ -52,13 +52,13 @@ Direct MIDI requires the host to send MIDI directly to the plug-in.
 
 > ⚠ Mapping the same CC to Position in both Direct MIDI and your host creates a second control path and may cause conflicting movement.
 
-### Ableton Live / Bitwig Studio / Reaper / etc.
+### Common DAWs: Ableton Live / Bitwig Studio / Reaper / etc.
 
 Place Volume Pedal on an audio track, then route MIDI from a MIDI track to the track hosting the plug-in.
 
 ### Logic Pro
 
-Logic does not normally route MIDI directly to standard AU audio effects. In Logic, automate or MIDI-map the **Position** parameter through the host instead. For Direct MIDI control, use a software instrument track and instantiate Volume Pedal as an AU MIDI-controlled effect. When using the plug-in in this manner, be sure to give it an audio input via the side chain selector in the Logic-generated plug-in header above the GUI.
+Logic does not normally route MIDI directly to standard AU audio effects. In Logic, automate or MIDI-map the **Position** parameter through the host instead. However, Direct MIDI control is possible on a software instrument track. Instantiate Volume Pedal as an AU MIDI-controlled effect in the instrument slot. When using the plug-in in this manner, be sure to give it an audio input via the side chain selector in the Logic-generated plug-in header above the GUI.
 
 ## DAW Automation
 
@@ -103,14 +103,12 @@ Included:
 
 - macOS AUv2
 - macOS VST3
-- Windows VST3
+- Windows VST3 (x64 / x64ARM / x64ARMEC)
 - [Universal AUv3 (iOS/iPadOS/macOS) is available on the App Store](https://apps.apple.com/us/app/volume-pedal/id6780228417)
 
 Not currently included:
 - VST2
 - CLAP
-
-## Installation
 
 ## Installation
 
