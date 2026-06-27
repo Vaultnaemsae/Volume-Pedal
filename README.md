@@ -16,7 +16,7 @@ Built for guitarists, keyboard players and live performers, Volume Pedal offers 
 - **Reverse** operation
 - Direct MIDI Learn
 - Full DAW automation
-- Factory and user presets
+- Factory presets (all platforms) and user presets (desktop only)
 - 14-day fully functional trial (desktop only)
 - Lemon Squeezy licence activation
 
@@ -31,9 +31,11 @@ Drag curve handles (taper/focus parameters) for different responses, such as:
 
 The graph shows how pedal position maps to output level, while the **Min** and **Max** define the available gain range.
 
-## Direct MIDI
+## Controlling Position
 
-Direct MIDI maps a learned MIDI CC directly to the **Position** parameter.
+The position knob represents the sweep of the expression pedal. It can be controlled by two methods.
+
+1) Direct MIDI maps a learned MIDI CC directly to the **Position** parameter.
 
 To assign a controller:
 
@@ -46,7 +48,9 @@ Click **Clear** to remove the assignment.
 
 > ⚠ Mapping the same CC to Position in both Direct MIDI and your host creates a second control path and may cause conflicting movement.
 
-Direct MIDI requires the host to send MIDI to the plug-in.
+Direct MIDI requires the host to send MIDI directly to the plug-in.
+
+2) Host automation can also control the Position knob. When this is active, a "Host Control" message appears above the dial.
 
 ### Ableton Live
 
@@ -71,10 +75,11 @@ The following parameters are available to the host:
 
 The learned MIDI CC and channel remain private plug-in settings and are not exposed as automation parameters.
 
-## Presets
+## Presets and Session Recall
+
+Volume Pedal includes factory presets to help you quickly explore different response curves and pedal behaviors.
 
 Factory presets include:
-
 - Linear
 - Natural Pedal
 - Audio Taper
@@ -86,9 +91,11 @@ Factory presets include:
 - Rhythm to Lead
 - Reverse Swell
 
-User presets can also be saved and loaded from within the plug-in.
+The macOS AUv2 and VST3 versions also include in-plugin Save and Load buttons for user preset files.
 
-User presets store pedal behaviour, response settings and Direct MIDI controller assignments.
+In AUv3 hosts on iOS, iPadOS, and macOS, custom settings are saved by the host as part of the session, project, or host preset. After choosing a factory preset, you can adjust the controls freely and save the result using your host’s normal session or preset system.
+
+In all formats, Volume Pedal exposes its controls as host parameters, so your settings can be recalled with projects and automated by compatible hosts.
 
 ## Formats
 
