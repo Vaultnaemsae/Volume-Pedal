@@ -1,4 +1,4 @@
-<img width="810" height="593" alt="Screenshot 2026-06-30 at 10 31 19 AM" src="https://github.com/user-attachments/assets/403940f6-3a16-4d98-9170-16577fb4d9b8" />
+<img width="1616" height="1108" alt="image" src="https://github.com/user-attachments/assets/514f9e41-e123-44f4-b3b9-e080b2d841a2" />
 
 # Volume Pedal
 
@@ -34,7 +34,7 @@ The graph shows how pedal position maps to output level, while the **Min** and *
 
 ## Controlling Position
 
-The position knob represents the sweep of the expression pedal. It can be controlled by two methods.
+The position knob represents the sweep of the expression pedal. It can be controlled via two methods.
 
 **Direct MIDI** maps a learned MIDI CC directly to the **Position** parameter.
 
@@ -104,10 +104,6 @@ Included:
 - macOS VST3
 - Windows VST3 (x64 / x64ARM / x64ARMEC)
 - [Universal AUv3 (iOS/iPadOS/macOS) is available on the App Store](https://apps.apple.com/us/app/volume-pedal/id6780228417)
-
-Not currently included:
-- VST2
-- CLAP
 
 ## Installation
 
