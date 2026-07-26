@@ -8,7 +8,7 @@ Built for guitarists, keyboard players and live performers, Volume Pedal offers 
 
 ## Features
 
-- macOS: AUv2/VST3
+- macOS: AUv2 / VST3
 - Windows: x64 / x64ARM / x64ARMEC
 - Smooth expression-style volume control
 - Adjustable **Min** and **Max** levels
